@@ -1,0 +1,11 @@
+<svg width="23" height="38" viewBox="0 0 23 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="user">
+<circle id="Ellipse 22" cx="11.5" cy="6.5" r="5.5" stroke="black" stroke-width="2"/>
+<g id="Ellipse 23">
+<mask id="path-2-inside-1_185_1215" fill="white">
+<path d="M23 26.5C23 23.45 21.7884 20.5249 19.6317 18.3683C17.4751 16.2116 14.55 15 11.5 15C8.45001 15 5.52494 16.2116 3.36827 18.3683C1.2116 20.5249 4.60536e-07 23.45 0 26.5L11.5 26.5H23Z"/>
+</mask>
+<path d="M23 26.5C23 23.45 21.7884 20.5249 19.6317 18.3683C17.4751 16.2116 14.55 15 11.5 15C8.45001 15 5.52494 16.2116 3.36827 18.3683C1.2116 20.5249 4.60536e-07 23.45 0 26.5L11.5 26.5H23Z" stroke="black" stroke-width="4" mask="url(#path-2-inside-1_185_1215)"/>
+</g>
+</g>
+</svg>

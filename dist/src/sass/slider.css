@@ -1,0 +1,129 @@
+.third-section {
+  min-width: 1440px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.third-section__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.third-section__title {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.third-section__cards {
+  width: 1200px;
+  height: 350px;
+  border-radius: 10px;
+}
+.third-section__cards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DEBDF0;
+  border-radius: 15px;
+  width: 242px;
+  gap: 20px;
+  margin: 7px;
+  padding: 10px;
+  padding-top: 7px;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.third-section__cards-item:hover {
+  transform: scale(1.1);
+}
+
+.item__price {
+  display: flex;
+  gap: 105px;
+}
+
+.none {
+  outline: none;
+  padding: 0;
+  border: none;
+  background: none;
+  margin-top: 8px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  position: static !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin-top: 0 !important;
+  border: 0;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  transform: scale(1.2);
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+  display: none;
+}
+
+.swiper-wrapper {
+  /* margin-top: 100px; */
+  height: 540px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .third-section {
+    min-width: 1024px;
+  }
+  .third-section__cards {
+    max-width: 1024px;
+  }
+  .swiper {
+    width: 84%;
+  }
+}
+@media (max-width: 768px) {
+  .third-section {
+    min-width: 768px;
+  }
+  .third-section__cards {
+    max-width: 768px;
+  }
+  .swiper {
+    width: 79%;
+  }
+}
+@media (max-width: 320px) {
+  .third-section {
+    min-width: 320px;
+  }
+  .third-section__cards {
+    max-width: 320px;
+  }
+  .swiper {
+    width: 100%;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+  .swiper.mySwiper {
+    margin-top: 20px;
+  }
+  .third-section__cards {
+    height: auto;
+  }
+}/*# sourceMappingURL=slider.css.map */

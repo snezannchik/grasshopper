@@ -1,0 +1,211 @@
+$font-default: Montserrat
+$font-title: Playfair
+$purple-color: #C575F0
+$bg-color: #DEBDF0
+$black-color: #000
+$white-color: #fff
+
+.order-section
+    min-width: 1440px
+    margin-top: 70px
+    &__container
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+    &__left-wrapper
+        display: flex
+        flex-direction: column
+        gap: 25px
+    &__right-wrapper
+        display: flex
+        flex-direction: column
+        gap: 25px
+        width: 540px
+        align-items: center
+        border-radius: 10px
+        background-color: $bg-color
+        height: 300px
+
+.order-left-wrapper
+    &__title
+        color: $black-color
+        font-family: $font-default
+        font-size: 32px
+        font-weight: 400
+        letter-spacing: 1.6px
+    &__login
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 24px
+    &__cont
+        display: flex
+        flex-direction: column
+        gap: 15px
+        width: 615px
+        height: 170px
+        border-radius: 10px
+        background-color: $bg-color
+        padding-top: 20px
+        padding-left: 20px
+    &__subtitle
+        color: $black-color
+        font-family: $font-default
+        font-size: 16px
+        font-weight: 500
+    &__img
+        display: flex
+        gap: 16px
+        &>img
+            transition: 0.1s linear
+            &:hover
+                transform: scale(1.1)
+                cursor: pointer
+    &__delivery
+        color: $black-color
+        font-family: $font-default
+        font-size: 28px
+        font-weight: 400
+        letter-spacing: 1.4px
+
+.login
+    &__input
+        width: 615px
+        height: 45px
+        border-radius: 24px
+        border: none
+        outline: none
+        font-family: $font-default
+        font-size: 16px
+        font-weight: 400
+        background-color: $bg-color
+        padding: 0 15px
+        color: $black-color
+    &__input::-webkit-input-placeholder
+        color: $black-color
+
+.delivery-cont
+    padding: 20px
+    display: flex
+    flex-direction: column
+    gap: 15px
+    border-radius: 10px
+    background-color: $bg-color
+    width: 615px
+    height: 200px
+    &__txt
+        color: #000
+        font-family: $font-default
+        font-size: 14px
+        font-weight: 300
+        &:hover
+            cursor: pointer
+    &__local
+        display: flex
+        justify-content: space-between
+        padding-top: 20px
+    &__local-img
+        display: flex
+        gap: 10px
+        align-items: center
+    &__user-txt
+        display: flex
+        gap: 10px
+        align-items: center
+
+.local-text
+    color: #000
+    font-family: $font-default
+    font-size: 14px
+    font-weight: 500
+
+.order-right-wrapper
+    margin-top: 63px
+    &__padding
+        padding-top: 5px
+    &__btn
+        border-radius: 10px
+        background: #8650A4
+        width: 389px
+        height: 70px
+        border: none
+        color: #FFF
+        font-family: $font-default
+        font-size: 20px
+        font-weight: 500
+        transition: 0.1s linear
+        &:hover
+            transform: scale(1.1)
+            cursor: pointer
+    &__order
+        display: flex
+        gap: 330px
+    &__finish
+        display: flex
+        gap: 390px
+        margin-left: -30px
+        padding-top: 20px
+
+.first-section__nav-container
+    padding-bottom: 10px
+
+@media (max-width: 1024px)
+    .order-section
+        min-width: 1024px
+    .order-section__container
+        display: flex
+        flex-direction: column
+        align-items: center
+    .order-section__left-wrapper
+        align-items: center
+
+@media (max-width: 768px)
+    .order-section
+        min-width: 768px
+
+@media (max-width: 320px)
+    .order-section
+        min-width: 320px
+    .order-left-wrapper__title
+        font-size: 20px
+    .first-section
+        height: 50px
+    .second-section
+        margin-top: 25px
+    .login__input
+        width: 270px
+    .order-left-wrapper__cont
+        width: 270px
+        height: auto
+        padding: 15px
+        align-items: center
+    .order-left-wrapper__img
+        display: grid
+        justify-content: center
+        grid-template-columns: repeat(2, 1fr)
+        width: 100px
+        &>img
+            width: 100px
+    .delivery-cont
+        width: 270px
+        height: auto
+        gap: 10px
+    .delivery-cont__user-txt
+        flex-wrap: wrap
+        height: auto
+    .order-right-wrapper
+        width: 270px
+    .order-right-wrapper__btn
+        width: 220px
+        font-size: 16px
+    .hr
+        display: none
+    .order-right-wrapper__order, .order-right-wrapper__finish
+        width: 220px
+        gap: 0
+        justify-content: space-between
+    .order-right-wrapper__finish
+        margin-left: 0
+    .order-section__right-wrapper
+        height: auto
+        padding-bottom: 25px

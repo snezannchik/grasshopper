@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../src/sass/main.css">
+    <link rel="stylesheet" href="../src/css/fonts.css">
+    <link rel="stylesheet" href="../src/sass/slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="../src/js/slider.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Grasshopper</title>
+</head>
+
+<body>
+    
+    <!-- первая секция -->
+    <section class="first-section">
+
+        <!-- Ограничивающий контейнер нав меню -->
+        <div class="container first-section__nav-container">
+
+            <!-- нав меню -->
+            <header class="first-section__header">
+                <a href="../src/index.html" class="first-section__logo-container">
+                    <img class="first-section__logo" src="../src/img/icons/logo.png" alt="logo">
+                    <p class="first-section__logo-text">Grasshopper</p>
+                </a>
+            </header>
+            <form class="first-section__search search">
+                <input class="search__input" type="text" placeholder="Поиск по сайту">
+                <button class="search__btn" type="submit"><img class="search__img" src="../src/img/icons/search.svg" alt="search"></button>
+            </form>
+            <nav class="first-section__nav nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="about_me.html">О магазине</a></li>
+                    <li class="nav-menu__list-item"><div class="vertical"></div></li>
+                    <li class="nav-menu__list-item"><a href="basket.html"><img src="../src/img/icons/basket.svg" alt="корзина"></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Ограничивающий контейнер основного контента первой секции -->
+        <div class="container first-section__content-container">
+
+            <!-- Левая часть первой секции -->
+            <div class="left-wrapper">
+
+                <!-- Заголовок-->
+                <h1 class="left-wrapper__title">Кондитерская Grasshopper</h1>
+
+                <!-- Текст-->
+                <p class="left-wrapper__txt txt">В нашем ассортименте есть не только вкусные 
+                    и полезные сладости, но и все что нужно для вкусной жизни!</p>
+
+                <p class="left-wrapper__txt">Мы в соцсетях</p>
+
+                <!-- Иконки-->
+                <div class="left-wrapper__icons-box icons">
+                    <div class="icons__item">
+                        <a href=""><img src="../src/img/icons/telegram.svg" alt="tg"></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href=""><img src="../src/img/icons/vk.svg" alt="vk"></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href=""><img src="../src/img/icons/instagram.svg" alt="inst"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Правая часть первой секции-->
+            <div class="right-wrapper">
+                <img class="right-wrapper__img" src="../src/img/photos/macaruns.png" alt="photo macaruns">
+            </div>
+        </div>
+    </section>
+
+    <!-- Вторая секция -->
+    <section class="second-section">
+        <div class="container second-section__container">
+
+            <!-- Категории -->
+            <a href="candie.html">
+                <div class="container-category">
+                    <div class="container-category__elipse elipse1">
+                        <img class="container-category__img" src="../src/img/icons/category/сладость.svg" alt="1 category">
+                    </div>
+                    <p class="container-category__txt">Сладости</p>
+                </div>
+            </a>
+            <a href="cake.html">
+                <div class="container-category">
+                    <div class="container-category__elipse elipse2">
+                        <img class="container-category__img" src="../src/img/icons/category/торт.svg" alt="2 category">
+                    </div>
+                    <p class="container-category__txt">Торты</p>
+                </div>
+            </a>
+            <a href="invent.html">
+                <div class="container-category">
+                    <div class="container-category__elipse elipse3">
+                        <img class="container-category__img" src="../src/img/icons/category/инвент.svg" alt="3 category">
+                    </div>
+                    <p class="container-category__txt">Кондитерский 
+                        инвентарь</p>
+                </div>
+            </a>
+            <a href="bakalea.html">
+                <div class="container-category">
+                    <div class="container-category__elipse elipse4">
+                        <img class="container-category__img" src="../src/img/icons/category/бакалея.svg" alt="4 category">
+                    </div>
+                    <p class="container-category__txt">Бакалея</p>
+                </div>
+            </a>
+            <a href="sauce.html">
+                <div class="container-category">
+                    <div class="container-category__elipse elipse5">
+                        <img class="container-category__img" src="../src/img/icons/category/соус.svg" alt="5 category">
+                    </div>
+                    <p class="container-category__txt">Корейские
+                        соусы</p>
+                </div>
+            </a>
+            <a href="freeze.html">
+                <div class="container-category">
+                    <div class="container-category__elipse elipse6">
+                        <img class="container-category__img" src="../src/img/icons/category/пельмени.svg" alt="6 category">
+                    </div>
+                    <p class="container-category__txt">Заморозка</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Третья секция -->
+    <section class="third-section">
+        <div class="container third-section__container">
+
+            <!-- заголовок -->
+            <div class="third-section__title">
+                <button class="swiper-button-prev"><img src="../src/img/icons/arrow-pre.svg" alt=""></button>
+                <h2 class="title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+                <button class="swiper-button-next"><img src="../src/img/icons/arrow-nxt.svg" alt=""></button>
+            </div>
+
+            <!-- карточки товара -->
+            <div class="third-section__cards">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                            <section class="swiper-slide">
+                                <div class="third-section__cards-item item">
+                                    <img class="item__im" src="../src/img/photos/card1.png" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+                                    <p class="item__txt txt">Пастила яблочная Белёвская</p>
+                                    <div class="item__price price">
+                                        <p>600 ₽</p>
+                                        <img src="../src/img/icons/корзина2.svg" alt="">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="swiper-slide">
+                                <div class="third-section__cards-item item">
+                                    <img class="item__im" src="../src/img/photos/card2.png" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+                                    <p class="item__txt txt">Мука Белес Классическая, 2кг</p>
+                                    <div class="item__price price">
+                                        <p>400 ₽</p>
+                                        <img src="../src/img/icons/корзина2.svg" alt="">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="swiper-slide">
+                                <div class="third-section__cards-item item">
+                                    <img class="item__im" src="../src/img/photos/card3.png" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+                                    <p class="item__txt txt">Соус Takemura Кимчи, 215мл</p>
+                                    <div class="item__price price">
+                                        <p>230 ₽</p>
+                                        <img src="../src/img/icons/корзина2.svg" alt="">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="swiper-slide">
+                                <div class="third-section__cards-item item">
+                                    <img class="item__im" src="../src/img/photos/card4.png" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+                                    <p class="item__txt txt">Лапша Samyang курица-карбонара острая, 130г</p>
+                                    <div class="item__price price">
+                                        <p>250 ₽</p>
+                                        <img src="../src/img/icons/корзина2.svg" alt="">
+                                    </div>
+                                </div>
+                            </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- четвертая секция -->
+    <section class="four-section">
+        <div class="container four-section__container">
+
+            <!-- заголовок -->
+            <h2 class="four-section__title">ГОТОВЫЕ НАБОРЫ СЛАДОСТЕЙ</h2>
+
+            <!-- наборы -->
+            <div class="four-section__set-box">
+                <a href="set_one.html">
+                    <div class="four-section__set-item set-item">
+                        <img class="set-item__img" src="../src/img/photos/set600.png" alt="600">
+                        <p class="set-item__txt txt">Мини набор полезных сладостей</p>
+                        <div class="set-item__price">
+                            <p class="price__txt price">600 ₽</p>
+                            <img class="price__img" src="../src/img/icons/корзина2.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div class="set-box__item-circle"></div>
+                <a href="set_two.html">
+                    <div class="four-section__set-item set-item">
+                        <img class="set-item__img" src="../src/img/photos/set1100.png" alt="1100">
+                        <p class="set-item__txt txt">Средний набор натуральных сладостей</p>
+                        <div class="set-item__price">
+                            <p class="price__txt price">1100 ₽</p>
+                            <img class="price__img" src="../src/img/icons/корзина2.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div class="set-box__item-circle"></div>
+                <a href="set_three.html">
+                    <div class="four-section__set-item set-item third">
+                        <img class="set-item__img" src="../src/img/photos/set1500.png" alt="1500">
+                        <p class="set-item__txt txt">Большой подарочный набор</p>
+                        <div class="set-item__price">
+                            <p class="price__txt price">1500 ₽</p>
+                            <img class="price__img" src="../src/img/icons/корзина2.svg" alt="">
+                        </div>
+                    </div>
+                </a>           
+            </div>
+        </div>
+    </section>
+
+    <!-- пятая секция -->
+    <section class="five-section">
+        <div class="container five-section__container">
+
+            <img class="five-section__left-wrapper" src="../src/img/photos/about.png" alt="about">
+
+            <div class="five-section__right-wrapper">
+                <a href="about_me.html"><h2 class="title">О НАШЕМ МАГАЗИНЕ</h2></a>
+                <p class="right-wrapper__txt">В 2014 году Евгений, создатель Grasshopper, решает открыть магазин с белёвской пастилой и другими натуральными продуктами. Это была небольшая точка в Торговых рядах. Товар новый, такого ещё не было в городе, поэтому люди медленно знакомились с продукцией. Но все кто неравнодушен к здоровому питанию сразу становились постоянными клиентами. В 2016 придумывает название Grasshopper shop. 
+                    <br>Постепенно расширяя ассортимент магазина в Торговых, Женя открывает ещё 5 точек по району и одну в Москве. Не сразу, конечно, а постепенно, одна за одной.
+                    <br>Со временем магазины с белевской пастилой открывались и закрывались, не везде есть достаточное количество людей и ценителей качественной продукции.
+                    <br>Поэтому наша цель чтобы как можно больше людей узнали о полезных сладостях!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container footer-info">
+
+            <section class="footer-logo">
+                <a href="index.html">
+                    <img src="../src/img/icons/лого2.svg" alt="logo">
+                </a>
+            </section>
+            <div class="footer-info__contact">
+                <div class="footer-info__elements">
+                    <h2 class="footer-info__headlines">Контакты</h2>
+                    <section class="footer-cont__elem second">
+                        <img src="../src/img/icons/telephone.svg" alt="phone">
+                        <a href="tel:+72344566666" class="footer-info__txt">+7 (234) 456 66 66</a>
+                    </section>
+                    <p class="footer-info__txt">Мы в соцсетях</p>
+                    <section class="footer-info__items">
+                        <a href="index.html"><img src="../src/img/icons/telegram.svg" alt=""></a>
+                        <a href="index.html"><img src="../src/img/icons/vk.svg" alt=""></a>
+                        <a href="index.html"><img src="../src/img/icons/instagram.svg" alt=""></a>
+                    </section>
+                </div>
+            </div>
+
+            <div class="footer-info__contact">
+                <div class="footer-info__elements elements-width">
+                    <h2 class="footer-info__headlines">Наши магазины</h2>
+                    <section class="footer-cont__elem">
+                        <a href="index.html" class="footer-info__txt">Сергиев-Посад, ул. 1-ой ударной Армии, 12 “Торговые ряды”</a>
+                    </section>
+                    <section class="footer-cont__elem about">
+                        <a href="index.html" class="footer-info__txt">Сергиев-Посад, ул. Пограничная, 28к1 “Меркурий”</a>
+                    </section>
+                    <section class="footer-cont__elem licenses">
+                        <a href="index.html" class="footer-info__txt">Хотьково, ул. Майолик, 19</a>
+                    </section>
+                </div>
+            </div>
+
+            <div class="footer-info__contact">
+                <div class="footer-info__elements">
+                    <h2 class="footer-info__headlines">О нас</h2>
+                    <section class="footer-cont__elem">
+                        <a href="about_me.html" class="footer-info__txt">О магазине</a>
+                    </section>
+                    <section class="footer-cont__elem about">
+                        <a href="index.html" class="footer-info__txt">Отзывы</a>
+                    </section>
+                    <section class="footer-cont__elem licenses">
+                        <a href="index.html" class="footer-info__txt">Лицензии</a>
+                    </section>
+                    <section class="footer-cont__elem licenses">
+                        <a href="index.html" class="footer-info__txt">Работники</a>
+                    </section>
+                </div>
+            </div>
+
+            <div class="footer-info__contact">
+                <div class="footer-info__elements">
+                    <h2 class="footer-info__headlines">Помощь</h2>
+                    <section class="footer-cont__elem">
+                        <a href="index.html" class="footer-info__txt">Условия оплаты</a>
+                    </section>
+                    <section class="footer-cont__elem about">
+                        <a href="index.html" class="footer-info__txt">Условия доставки</a>
+                    </section>
+                    <section class="footer-cont__elem licenses">
+                        <a href="index.html" class="footer-info__txt">Гарантия на товары</a>
+                    </section>
+                    <section class="footer-cont__elem licenses">
+                        <a href="index.html" class="footer-info__txt">Доставка и оплата</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+$font-default: Montserrat
+$font-title: Playfair
+$purple-color: #C575F0
+$bg-color: #DEBDF0
+$black-color: #000
+$white-color: #fff
+
+.basket-section
+    min-width: 1440px
+    margin-top: 120px
+    &__container
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+    &__left-wrapper
+        display: flex
+        flex-direction: column
+        gap: 20px
+    &__left-title
+        color: $purple-color
+        font-family: $font-default
+        font-size: 32px
+        font-weight: 400
+        letter-spacing: 7.52px
+    &__left-txt
+        color: $purple-color
+        font-family: $font-default
+        font-size: 16px
+        font-weight: 400
+    &__right-wrapper
+        display: flex
+        flex-direction: column
+        gap: 20px
+    &__right-btn
+        width: 390px
+        height: 70px
+        border-radius: 10px
+        border: none
+        background-color: $bg-color
+        transition: 0.1s linear
+        &:hover
+            transform: scale(1.1)
+            cursor: pointer
+    &__right-remark
+        display: flex
+        align-items: center
+        padding-left: 8px
+        background-color: $bg-color
+        border-radius: 10px
+        width: 390px
+        height: 70px
+        gap: 10px
+    &__right-remark-img
+        padding-bottom: 15px
+
+.right-btn-txt
+    color: $white-color
+    font-family: $font-default
+    font-size: 20px
+    font-weight: 500
+.right-remark-txt
+    width: 340px
+    color: $white-color
+    font-family: $font-default
+    font-size: 20px
+    font-weight: 500
+
+.footer
+    margin-top: 130px
+
+.first-section__nav-container
+    padding-bottom: 10px
+
+@media (max-width: 1024px)
+    .basket-section
+        min-width: 1024px
+
+@media (max-width: 768px)
+    .basket-section
+        min-width: 768px
+    .basket-section__container
+        flex-direction: column
+    .basket-section__left-wrapper
+        margin-bottom: 40px
+    .basket-section__right-wrapper
+        align-items: center
+
+@media (max-width: 320px)
+    .basket-section
+        min-width: 320px
+    .second-section, .basket-section
+        margin-top: 30px
+    .basket-section__left-title
+        font-size: 25px
+        letter-spacing: 5px
+    .basket-section__right-btn, .basket-section__right-remark
+        width: 250px
+    .basket-section__right-remark
+        height: auto
+        padding: 10px
+    .footer
+        margin-top: 70px

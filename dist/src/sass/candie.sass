@@ -1,0 +1,111 @@
+$font-default: Montserrat
+$font-title: Playfair
+$purple-color: #C575F0
+$bg-color: #DEBDF0
+$black-color: #000
+$white-color: #fff
+
+.candie-section
+    min-width: 1440px
+    margin-top: 70px
+    &__container
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 40px
+    &__content
+        display: flex
+        justify-content: space-between
+        width: 1200px
+    &__left-wrapper
+        display: flex
+        flex-direction: column
+        gap: 15px
+    &__select
+        color: #000
+        font-family: $font-default
+        font-size: 24px
+        font-weight: 400
+        letter-spacing: 1.2px
+    &__right-wrapper
+        display: flex
+        gap: 70px
+    &__none
+        color: #000000
+        font-family: $font-default
+        font-size: 20px
+        font-weight: 300
+        letter-spacing: 1.6px
+        padding-right: 600px
+    &__label
+        display: flex
+        flex-direction: column
+        gap: 15px
+
+.third-section
+    &__cards
+        background-color: $bg-color
+        width: 242px
+        height: 322px
+        border-radius: 10px
+    &__cards-item
+        display: flex
+        flex-direction: column
+        width: 228px
+        gap: 20px
+        margin: 7px
+        padding-top: 7px
+
+.item
+    &__price
+        display: flex
+        gap: 105px
+
+.first-section__nav-container
+    padding-bottom: 10px
+
+@media (max-width: 1024px)
+    .candie-section
+        min-width: 1024px
+    .candie-section__content
+        flex-direction: column
+        max-width: 864px
+    .candie-section__left-wrapper
+        margin-bottom: 50px
+    .candie-section__label
+        flex-direction: row
+    .second-section
+        margin-top: 30px
+
+@media (max-width: 768px)
+    .candie-section
+        min-width: 768px
+    .candie-section__right-wrapper
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center
+    .candie-section__select
+        text-align: center
+    .candie-section__content
+        max-width: 608px
+        align-items: center
+
+@media (max-width: 320px)
+    .title
+        font-size: 24px
+    .candie-section
+        min-width: 320px
+        margin-top: 40px
+    .candie-section__content
+        max-width: 270px
+        align-items: center
+    .candie-section__container
+        gap: 20px
+    .candie-section__label
+        flex-wrap: wrap
+        justify-content: center
+    .candie-section__select
+        font-size: 16px
+    .candie-section__right-wrapper
+        gap: 50px

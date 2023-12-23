@@ -1,0 +1,58 @@
+.set-section {
+  min-width: 1440px;
+  margin-top: 70px;
+}
+.set-section__container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.set-section__info {
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 642px;
+}
+.set-section__title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  width: 393px;
+}
+.set-section__price {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.set-section__new {
+  color: #C575F0;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+}
+.set-section__old {
+  color: #C575F0;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.set-section__txt {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+}
+.set-section__btn {
+  width: 389px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: #8650A4;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+}/*# sourceMappingURL=set_one.css.map */
